@@ -1,0 +1,25 @@
+#books-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 2rem;
+  justify-content: center;
+}
+
+.book {
+  background: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 2rem;
+  width: 150px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.book:hover {
+  background: #e0e0e0;
+  transform: translateY(-4px);
+}
